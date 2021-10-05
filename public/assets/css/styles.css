@@ -1,0 +1,95 @@
+/*Nav Menu*/
+        #logo {                     
+                                margin-left: 5vw;
+                                height: 10vh;
+                                width: 10vh;
+                                border-radius: 25vh;}
+       
+        .nav-item:hover{background-color: rgb(72, 114, 192);border-radius: 10px;padding-left: 1vw;padding-right: 1vw;}
+        
+        #contactanos{display: none;}
+        #submenu{display: none;}
+
+        #instagram {    width: 6vh; 
+                        margin-bottom: 1vh;
+                        border-radius: 25px;
+                        margin-right: 1vh;}
+
+#tarjetas {             margin-top: 15vh;} /*Contenedor de las tarjetas*/
+        .card{width: 90vw;}
+
+        #Carousel_Principal{width: 95vw;margin-top: 15vh;}
+
+#Carru  {               display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 95vw;
+                        }
+
+            .carousel-indicators{           margin-bottom: -1vh}
+
+            .carousel-control-prev-icon{    margin-left: -10vw;
+                                            background-color: #59595a;
+                                            border-radius: 50%;
+                                            width: 8vw;
+                                            height: 8vw;}
+
+           .carousel-control-next-icon {    margin-right: -10vw;
+                                            background-color: #59595a;
+                                            border-radius: 50%;
+                                            width: 8vw;
+                                            height: 8vw;}
+
+#ElFoot {margin-top: 7vh}
+#wsp{padding-top: 1vh;padding-bottom: 1vh;}
+#wsp:hover{background-color: rgb(72, 114, 192);border-radius: 10px;padding-left: 1vw;padding-right: 1vw;}
+
+
+        /*Zona Web PC*/
+
+        @media (min-width: 700px) {
+        #navegador{ position: relative;width: 100vw;}
+
+                #instagram{ width: 3vh;margin-bottom: 1vh;}
+
+                #logo{      margin-left: 12vw;
+                                margin-right: 3vh;}
+                
+                #elementosNav{display: none;}
+                #contactanos{display: block;}
+                #submenu{display: block;width: 100vw;}
+
+                #submenu_text{margin-left: 13vw;padding-bottom: 2vh;font-size: small;}
+
+        
+        #Carousel_Principal{display: none;}
+
+        #tarjetas { margin-top: 2vh;} /*Contenedor*/
+                                .card{width: 22vw;}  
+                           
+
+        #Carru{     display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 70vw;}
+
+                .carousel-control-prev-icon { margin-left: -60%;
+                                background-color: #59595a;
+                                border-radius: 50%;
+                                width: 35%;
+                                height: 5%;}
+
+                .carousel-control-next-icon { margin-right: -60%;
+                                background-color: #59595a;
+                                border-radius: 50%;
+                                width: 35%;
+                                height: 5%;}
+
+                .carousel-indicators {  margin-bottom: 0vh;}       
+
+        #ElFoot{    position: relative;
+                        bottom: 0;
+                        padding-top: 0vh;
+                        margin-top: 2vh;
+                        width: 100vw; }
+        }
