@@ -1,11 +1,16 @@
 /*Nav Menu*/
+
+#construccion{
+        margin-top: 15vh;
+}
+
         #logo {                     
                                 margin-left: 5vw;
                                 height: 10vh;
                                 width: 10vh;
                                 border-radius: 25vh;}
        
-        .nav-item:hover{background-color: rgb(72, 114, 192);border-radius: 10px;padding-left: 1vw;padding-right: 1vw;}
+        .nav-item:hover{background-color: #000000; border-radius: 10px;padding-left: 1vw;padding-right: 1vw;}
         
         #contactanos{display: none;}
         #submenu{display: none;}
@@ -42,7 +47,7 @@
 
 #ElFoot {margin-top: 7vh}
 #wsp{padding-top: 1vh;padding-bottom: 1vh;}
-#wsp:hover{background-color: rgb(72, 114, 192);border-radius: 10px;padding-left: 1vw;padding-right: 1vw;}
+#wsp:hover{background-color: #000000;border-radius: 10px;padding-left: 1vw;padding-right: 1vw;}
 
 
         /*Zona Web PC*/
