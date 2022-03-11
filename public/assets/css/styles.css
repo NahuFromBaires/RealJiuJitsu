@@ -4,6 +4,7 @@
         margin-top: 15vh;
 }
 
+
         #logo {                     
                                 margin-left: 5vw;
                                 height: 10vh;
@@ -19,6 +20,11 @@
                         margin-bottom: 1vh;
                         border-radius: 25px;
                         margin-right: 1vh;}
+
+        #instagram2 {    width: 6vh; 
+                                margin-bottom: 1vh;
+                                border-radius: 25px;
+                                margin-right: 1vh;}
 
 #tarjetas {             margin-top: 15vh;} /*Contenedor de las tarjetas*/
         .card{width: 90vw;}
@@ -50,12 +56,16 @@
 #wsp:hover{background-color: #000000;border-radius: 10px;padding-left: 1vw;padding-right: 1vw;}
 
 
-        /*Zona Web PC*/
+/*Zona Web PC*/
+
+
+
 
         @media (min-width: 700px) {
         #navegador{ position: relative;width: 100vw;}
 
                 #instagram{ width: 3vh;margin-bottom: 1vh;}
+                #instagram2{ width: 3vh;margin-bottom: 1vh;}
 
                 #logo{      margin-left: 12vw;
                                 margin-right: 3vh;}
@@ -71,6 +81,8 @@
 
         #tarjetas { margin-top: 2vh;} /*Contenedor*/
                                 .card{width: 22vw;}  
+
+                                #Tarjetitas{margin-top: 2vh; width: 60vw}
                            
 
         #Carru{     display: flex;
@@ -97,4 +109,11 @@
                         padding-top: 0vh;
                         margin-top: 2vh;
                         width: 100vw; }
+        }
+
+
+@media (max-width: 699px) {
+        #Principal{
+                margin-top: 15vh;
+        }
         }
